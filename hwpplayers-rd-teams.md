@@ -22,3 +22,10 @@ So here is our list for Masscollabs Services and it's organizations :
     * **Assembly**: Where we dive into CPU and hardware knowledge.
 
 And then we'll jump into userspace applications with C++ language for UNIX, Windows and for other like Haiku or our own experimental kernels or others'.
+## But What is the reason for programming a device
+
+We program devices and write an operating system to 
+
+* Calculate difficult problems in the society like the communication services such as Internet Service Providers that supports us every day.
+* Simulation of problems to solve and predice and to change the way of our actions as we like.
+* For extending our actions with new features called applications and extensions and scripts.
