@@ -38,11 +38,13 @@ int main(){
     int second = 60, minute = 60, hour = 60, day = 24, week = 7, total;
 
     minute = second;
-    hour = minute * second;
-    day = hour * minute;
-    week = day * hour;
+    hour = minute * 60;
+    day = hour * 24;
+    week = day * 7;
     total = week; 
     printf("total second is : %d\n", total);
 
     return 0;
 }
+
+/*Let's dive into that code*/
