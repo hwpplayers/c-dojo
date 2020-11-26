@@ -30,26 +30,15 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 */
-#include <stdio.h> // We'll discuss why we have started from stdio.h
 
-/*
-We'll discuss C programming lanugage and UNIX operating system. Their first program is "Hello World" so this is a tradition and where we'll start with another implementation called "paraphrase".
-*/
+#include <stdio.h>
+#include "headers/foo.h"
 
-int main()
-{
-    printf("Hello C Programming Language World\n"); // Why we write some symbols like \n or ; 
+int main(){
+   
+   foo(); // Why only foo ? But Not int foo ?
 
-    return 0;
+   return 0; // What does return mean ? What it returns ?
 }
 
-/*
-That simple seems like simple but the main reason to write an output on screen is to test disk cpu and ram and other computing hardware if it is responsing or not.
-*/
-
-/*For now I write and compile code with GNU Compiler and support binaries for only Ubuntu but there is a long list for any operating system*/
-
-/*We'll discuss on computer architectures and computer science*/
-
-/*There will be a discussion for programming languages within our documentation and on issues section or discussions session within hwpplayers hackerspace*/
-
+/*What i was trying is to include a c source code within another c source code but system is designed for .h and .c :) That is what i guess. Hackish code and exploitation is very easy on this domain Keep Calm and read twice :)*/
