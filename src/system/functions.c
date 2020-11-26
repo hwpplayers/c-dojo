@@ -49,8 +49,7 @@ int main(){
     return 0; // What does return mean ? What it returns ?
 }
 
-/*We will divide this function.c program in two c programs like foo.c and core.c and compile as foo application*/
-
+/*Please look at foo.h and main.c*/
 
 
 
